@@ -1,4 +1,4 @@
-/*
+
 DROP TABLE Factory CASCADE CONSTRAINTS;
 
 CREATE TABLE Factory (
@@ -24,7 +24,7 @@ insert into factory (tdate, Assembled,Passed,Target) values (TO_DATE('130720', '
 insert into factory (tdate, Assembled,Passed,Target) values (TO_DATE('140720', 'DDMMYY'), 150, 103,125); 
 insert into factory (tdate, Assembled,Passed,Target) values (TO_DATE('150720', 'DDMMYY'), 160, 113,130);  
 
-*/
+
 DROP TABLE EMP_F CASCADE CONSTRAINTS;
 
 CREATE TABLE EMP_F (
